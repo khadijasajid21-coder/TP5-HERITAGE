@@ -4,7 +4,7 @@ public class MainAnimal {
 	 public static void main(String[] args) {
 	        Zoo monZoo = new Zoo();
 
-	        // Ajout de 6 animaux pour tester l’agrandissement
+	      
 	        monZoo.ajouterAnimal(new Mammifere("Lion", 5, "Dorée"));
 	        monZoo.ajouterAnimal(new Oiseau("Aigle", 3, 2.3));
 	        monZoo.ajouterAnimal(new Reptile("Crocodile", 12, "Épaisse"));
@@ -15,7 +15,7 @@ public class MainAnimal {
 	        monZoo.afficherTous();
 	        System.out.println();
 
-	        // Actions spécifiques
+	       
 	        Animal a1 = new Mammifere("Éléphant", 10, "Grise");
 	        monZoo.ajouterAnimal(a1);
 	        ((Mammifere)a1).allaiter();
